@@ -1,0 +1,14 @@
+[package]
+name = "basic-connections"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+prost = "0.13.4"
+quinn = "0.11.6"
+rcgen = "0.13.2"
+rustls = "0.23.22"
+tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread"] }
+
+[build-dependencies]
+prost-build = "0.13.4"

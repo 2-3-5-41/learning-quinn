@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package learning.plaintext;
+
+message Text {
+    string message = 1;
+}
